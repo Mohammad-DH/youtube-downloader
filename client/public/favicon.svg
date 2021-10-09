@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#67ff76"/>
+      <stop offset="1" stop-color="#82ffdd" stop-opacity="0.851"/>
+    </radialGradient>
+  </defs>
+  <g id="favicon" transform="translate(-1062 -427)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="32" rx="5" transform="translate(1062 427)" fill="none"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(1062 427)" stroke="#000" stroke-width="0.5" fill="url(#radial-gradient)">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="15.75" fill="none"/>
+    </g>
+    <path id="Polygon_1" data-name="Polygon 1" d="M9.636,1.481a1,1,0,0,1,1.728,0L20.123,16.5a1,1,0,0,1-.864,1.5H1.741a1,1,0,0,1-.864-1.5Z" transform="translate(1089 433) rotate(90)" fill="#fff"/>
+  </g>
+</svg>

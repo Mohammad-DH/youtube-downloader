@@ -1,0 +1,18 @@
+{
+  "name": "youtube_downloader",
+  "productName": "youtube_downloader",
+  "version": "1.1.9",
+  "description": "youtube downloader",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "Mohammad DH",
+    "email": "mohammad.dh.dev@gmail.com",
+    "url": "https://www.mohammaddh.com/"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules"
+  },
+  "license": "MIT"
+}
